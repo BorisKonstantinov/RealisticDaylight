@@ -1,6 +1,6 @@
 import pytest
 
-from src.daylight_calculator import DaylightCalculator
+from ..src import DaylightCalculator
 
 
 def test_nautical_exposure():
