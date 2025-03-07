@@ -1,6 +1,6 @@
 import pytest
 
-from ..src import OrographyHandler
+from src.orography_handler import OrographyHandler
 
 
 def test_get_orography_data():
