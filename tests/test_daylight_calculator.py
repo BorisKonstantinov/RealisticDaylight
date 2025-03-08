@@ -1,12 +1,6 @@
-import os
-import sys
-
 import pytest
 
-from daylight_calculator import DaylightCalculator
-
-src_path = os.path.abspath(os.path.join(os.getcwd(), "src"))
-sys.path.append(src_path)
+from RealisticDaylight.src.daylight_calculator import DaylightCalculator
 
 
 def test_nautical_exposure():
@@ -17,7 +11,6 @@ def test_nautical_exposure():
 def test_realistic_daylight():
     DC_Instance = DaylightCalculator(location="TestLocation", orography="TestOrography")
     DC_Instance.realistic_daylight()
-
     assert True
 
 

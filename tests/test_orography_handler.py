@@ -1,5 +1,4 @@
 import pytest
-
 from src.orography_handler import OrographyHandler
 
 
