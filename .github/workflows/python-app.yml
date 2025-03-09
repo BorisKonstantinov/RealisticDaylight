@@ -38,4 +38,4 @@ jobs:
       env:
         PYTHONPATH: ./RealisticDaylight/src
       run: |
-        pytest RealisticDaylight/tests
+        pytest
