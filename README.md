@@ -4,6 +4,7 @@ This project aims to obtain the available exposure to direct sunlight for a give
 
 ## File Structure Tree
 
+<pre>
 RealisticDaylight/
 ├── .gitignore
 ├── .pre-commit-config.yaml
@@ -21,14 +22,14 @@ RealisticDaylight/
 │           ├── lastfailed
 │           ├── nodeids
 │           └── stepwise
-├── RealisticDaylight/ <p style="color:blue;">Main Project Folder</p>
+├── <span style="color:blue;">RealisticDaylight/ (Main Project Folder)</span>
 │   ├── __pycache__/
 │   ├── api/
 │   │   ├── __init__.py
 │   │   └── routes.py
 │   ├── data/
 │   │   └── sample_data.csv
-│   ├── src/ <p style="color:blue;">Source code goes in here</p>
+│   ├── <span style="color:blue;">src/ (Source code goes in here)</span>
 │   │   ├── __init__.py
 │   │   ├── daylight_calculator.py
 │   │   ├── main.py
@@ -36,3 +37,4 @@ RealisticDaylight/
 │   └── tests/
 │       ├── test_daylight_calculator.py
 │       └── test_orography_handler.py
+</pre>
